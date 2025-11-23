@@ -882,7 +882,7 @@ nav {
 }
 
 .form-row--checkbox {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .checkbox-label {
@@ -900,7 +900,7 @@ nav {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -911,7 +911,6 @@ nav {
   fill: transparent;
 }
 
-.visually-hidden:checked + .checkbox-label .checkbox-custom,
 .visually-hidden:checked + .checkbox-label .checkbox-custom {
   background-color: #404bbf;
   border: none;
