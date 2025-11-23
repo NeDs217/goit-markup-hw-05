@@ -913,13 +913,9 @@ nav {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-label span {
+.checkbox-label > span {
   display: inline-flex;
   align-items: center;
-}
-
-.form-row--checkbox span {
-  display: inline-flex;
 }
 
 .visually-hidden:checked + .checkbox-label .checkbox-custom {
