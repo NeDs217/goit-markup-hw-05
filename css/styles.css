@@ -807,7 +807,7 @@ nav {
   flex-direction: column;
 }
 
-.form-row .first-row {
+.form-row > :first-child {
    margin-bottom: 8px; 
 }
 
