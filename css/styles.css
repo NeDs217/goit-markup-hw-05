@@ -807,8 +807,8 @@ nav {
   flex-direction: column;
 }
 
-.form-row > :first-child {
-   margin-bottom: 8px; 
+.form-row:first-child {
+  margin-top: 8px;
 }
 
 .field-label {
@@ -904,20 +904,18 @@ nav {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
   background-color: transparent;
   box-sizing: border-box;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden:checked + .checkbox-label .checkbox-custom {
-  background-color: #4d5ae5;
-  border-color: #4d5ae5;
+  background-color: #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
 
