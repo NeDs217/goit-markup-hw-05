@@ -918,6 +918,10 @@ nav {
   align-items: center;
 }
 
+.form-row--checkbox span {
+  display: inline-flex;
+}
+
 .visually-hidden:checked + .checkbox-label .checkbox-custom {
   background-color: #404bbf;
   border: none;
