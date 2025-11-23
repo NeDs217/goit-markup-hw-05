@@ -803,7 +803,7 @@ nav {
 
 .form-row {
   margin-bottom: 16px;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 
