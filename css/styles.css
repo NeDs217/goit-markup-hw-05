@@ -585,6 +585,8 @@ nav {
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-social-list {
@@ -624,12 +626,16 @@ nav {
 .footer-input {
   width: 264px;
   height: 40px;
-  padding: 8px 16px;
+  padding-left: 16px;
 
   background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #ffffff;
   border-radius: 4px;
-  color: #fff;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-input::placeholder {
@@ -640,16 +646,23 @@ nav {
   display: flex;
   align-items: center;
   gap: 8px;
-
+  min-width: 165px;
   padding: 8px 24px;
   border: none;
   border-radius: 4px;
-
+  justify-content: center;
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
-
+  font-weight: 500;
   transition: background-color 250ms ease;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+}
+
+.footer-send {
+    margin-left: 16px;
 }
 
 .footer-button:hover {
