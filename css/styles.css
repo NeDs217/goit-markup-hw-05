@@ -808,7 +808,7 @@ nav {
 }
 
 .form-row:first-child {
-  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .field-label {
@@ -904,7 +904,7 @@ nav {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
