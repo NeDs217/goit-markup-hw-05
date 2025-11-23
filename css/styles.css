@@ -802,7 +802,7 @@ nav {
 }
 
 .form-row {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
 }
@@ -882,11 +882,11 @@ nav {
 }
 
 .form-row--checkbox {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .checkbox-label {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 8px;
   font-size: 12px;
