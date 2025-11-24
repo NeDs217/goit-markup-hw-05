@@ -838,8 +838,12 @@ nav {
   flex-direction: column;
 }
 
-.form-row:nth-child(5) {
+.form-row:nth-child(4) {
   margin-bottom: 16px;
+}
+
+.form-row:nth-child(5) {
+  margin-bottom: 24px;
 }
 
 .form-row .form-row--textarea {
