@@ -842,6 +842,10 @@ nav {
   margin-bottom: 8px;
 }
 
+.form-row .form-row--textarea {
+  margin-bottom: 16px;
+}
+
 .field-label {
   display: block;
   margin-bottom: 4px;
