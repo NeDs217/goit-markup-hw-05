@@ -498,7 +498,14 @@
         <div class="footer-subscribe">
           <p class="footer-title">Subscribe</p>
           <form class="footer-form">
-            <input type="email" class="footer-input" placeholder="E-mail" />
+            <label for="email-id"></label>
+            <input
+              type="email"
+              class="footer-input"
+              name="email"
+              placeholder="E-mail"
+              id="email-id"
+            />
             <button type="submit" class="footer-button">
               Subscribe
               <svg width="20" height="20">
@@ -601,7 +608,7 @@
               value="true"
             />
             <label class="checkbox-label" for="user-privacy">
-              <span class="checkbox-custom">
+              <span class="checkbox-custom" aria-hidden="true">
                 <svg
                   width="10"
                   height="8"

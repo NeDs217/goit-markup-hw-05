@@ -618,6 +618,15 @@ nav {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-title {
+  margin-bottom: 16px;
+  padding-left: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
 .footer-icon-link:hover,
 .footer-icon-link:focus {
   background-color: #31d0aa;
